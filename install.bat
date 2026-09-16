@@ -55,7 +55,7 @@ python -m pip install --upgrade pip
 
 echo.
 echo Installing dependencies ^(pygame, vgamepad^)...
-python -m pip install pygame vgamepad
+python -m pip install pygame-ce vgamepad
 if %errorlevel% neq 0 (
     echo.
     echo Failed to install dependencies. Check your internet connection
